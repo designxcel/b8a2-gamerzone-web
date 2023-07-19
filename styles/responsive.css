@@ -1,0 +1,252 @@
+@media screen and (max-width:576px) {
+    nav {
+        flex-direction: column;
+    }
+
+    .menus {
+        margin-top: 60px;
+        text-align: center;
+    }
+
+    .menus ul {
+        flex-direction: column;
+    }
+
+    .menus li {
+        margin-top: 35px;
+    }
+
+    .banner {
+        flex-direction: column-reverse;
+        /* width: 100%; */
+    }
+
+
+    .banner-content-right {
+        width: 100%;
+    }
+
+    .banner-content-right img {
+        width: 80%;
+        margin: 250px 40px 0px;
+    }
+
+
+    .banner-content-left {
+
+        width: 400px;
+        height: 650px;
+        /* margin-left: 50px; */
+
+    }
+
+    .banner-content-title {
+        margin: 50px 50px 0 25px;
+        width: 350px;
+        padding: 20px;
+    }
+
+    .banner-content-main-title {
+        margin: 0 50px 10px 25px;
+        width: 350px;
+        padding: 20px;
+    }
+
+    .contents-tag {
+        margin: 0 50px 10px 25px;
+        width: 350px;
+        padding: 20px;
+    }
+
+    .we-are-gamer {
+        flex-direction: column;
+    }
+
+    .gamer-image img {
+        width: 100%;
+    }
+
+    .gamer-content {
+        text-align: center;
+    }
+
+    .gamer-content p {
+        width: 350px;
+        margin: 50px auto;
+    }
+
+    .play-concept {
+        flex-direction: column;
+    }
+
+    .play-left {
+        margin-top: 50px;
+        text-align: center;
+    }
+
+    .play-side-image {
+        padding: 50px;
+    }
+
+    .main-image {
+        width: 300px;
+        height: 280px;
+    }
+
+    .bottom-image {
+        width: 150px;
+        margin-left: 100px;
+        margin-top: 200px;
+    }
+
+    /* footer{
+        width: 100%;
+    } */
+
+    /* footer{
+        width: 100%;
+    } */
+    .footer-title img h1{
+        margin-top: 50px;
+    }
+    .footer-section {
+        width: 100%;
+        padding: 60px 0;
+    }
+
+    .footer-top-menu ul {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        /* width: 500px; */
+        /* margin: 0 30px; */
+        padding: 0 20px;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .footer-top-menu a {
+        font-size: 0.7rem;
+        display: flex;
+        justify-content: space-evenly;
+        width: 60%;
+        margin: 0 auto;
+    }
+
+    .social-media-icons {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        width: 60%;
+        margin: 40px auto;
+
+    }
+
+    .footer-section p {
+
+        text-align: center;
+
+    }
+
+    .footer-bottom-menu a {
+        font-size: 0.7rem;
+        display: flex;
+        justify-content: space-evenly;
+        width: 60%;
+        margin: 0 auto;
+    }
+
+    .footer-bottom-menu ul {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .game-section{
+        width: 100%;
+        height: auto;
+        padding: 0;
+    }
+
+    .games-collection{
+        grid-template-columns: repeat(3, 2fr);
+
+        
+    }
+
+
+}
+
+
+/* For tablet device */
+
+@media screen and (min-width:576px) and (max-width:970px) {
+    .navbar {
+        height: 180px;
+    }
+
+    nav {
+        flex-direction: column;
+    }
+
+    .menus {
+        margin-top: 30px;
+        text-align: center;
+    }
+
+    .banner {
+        flex-direction: column-reverse;
+        /* width: 100%; */
+    }
+
+    .banner-content-right {
+        width: 100%;
+        margin: 50px;
+    }
+
+    .banner-content-right img {
+        width: 100%;
+    }
+
+    .banner-content-left {
+
+        width: 100%;
+
+    }
+
+    .we-are-gamer {
+        flex-direction: column;
+    }
+
+    .gamer-image img {
+        width: 100%;
+    }
+
+    .gamer-content {
+        text-align: center;
+    }
+
+    .gamer-content p {
+        width: 600px;
+        margin: 50px auto;
+    }
+
+    .play-concept {
+
+        flex-direction: column;
+    }
+
+    .play-left {
+        margin-top: 50px;
+        text-align: center;
+    }
+
+    .main-image {
+        margin-top: 50px;
+        width: 450px;
+        height: 400px;
+    }
+
+    .bottom-image {
+        width: 150px;
+        margin-left: 100px;
+        margin-top: 200px;
+    }
+
+}
