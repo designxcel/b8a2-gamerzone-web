@@ -261,7 +261,6 @@ nav {
     justify-content: space-around;
     margin: 0 auto;
     align-items: center;
-    /* border: 1px solid blue; */
 }
 
 .play-left {
@@ -309,17 +308,17 @@ nav {
     /* margin-top: -100px; */
 }
 
-.all-games {
-    max-width: 1440px;
-    margin: 0 auto;
+.game-section {
+    max-height: 300px;
 }
 
 .first-row {
+    max-width: 1440px;
+    margin: 0 auto;
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
     align-items: center;
-
-
 }
 
 .first-row div {
@@ -328,23 +327,22 @@ nav {
     border-radius: 50px;
     align-items: center;
     padding: 10px 30px 10px 15px;
-    margin: 150px 10px 15px 10px;
+    margin: 50px 10px 0px 10px;
 
 }
 
-.first-row,
-.second-row h3 {
+.first-row h3{
     margin-left: 8px;
 }
 
-.second-row {
+/* .second-row {
     display: flex;
     justify-content: center;
     align-items: center;
 
-}
+} */
 
-.second-row div {
+/* .second-row div {
     display: flex;
     background: white;
     border-radius: 50px;
@@ -352,11 +350,11 @@ nav {
     padding: 10px 30px 10px 15px;
     margin: 0px 10px;
 
-}
+} */
 
 
 footer {
-    height: auto;
+    height: 500px;
     background-color: #0B0223;
     /* background-size: cover; */
     background-repeat: no-repeat;
