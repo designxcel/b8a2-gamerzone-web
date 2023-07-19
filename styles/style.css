@@ -81,7 +81,7 @@ nav {
 /* banner portion style */
 
 .banner-content-left {
-    background-image: url('/images/Group\ 14.png');
+    background-image: url('./images/Group\ 14.png');
     width: 901px;
     height: 690px;
     background-repeat: no-repeat;
