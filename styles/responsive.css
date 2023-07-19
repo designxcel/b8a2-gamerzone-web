@@ -221,5 +221,19 @@ footer{
         margin-left: 100px;
         margin-top: 200px;
     }
+    .online-card{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        margin-left: 28px;
+    }
+
+    .first-row{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    .footer-menu{
+        flex-wrap: wrap;
+    }
 
 }
