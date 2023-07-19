@@ -309,7 +309,7 @@ nav {
 }
 
 .game-section {
-    max-height: 300px;
+    margin-top: -200px;
 }
 
 .first-row {
@@ -329,6 +329,11 @@ nav {
     padding: 10px 30px 10px 15px;
     margin: 50px 10px 0px 10px;
 
+}
+
+.first-row div:hover{
+    border: 1px solid salmon;
+    color: #F948B2;
 }
 
 .first-row h3{

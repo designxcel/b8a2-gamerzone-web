@@ -109,13 +109,33 @@
         margin-top: 200px;
     }
 /* game section */
+.game-section{
+    
+}
   .first-row{
-    flex: 1 1 200px;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    
   }
 
- 
+.first-row div{
+    width: 80%;
+    padding: 10px 0px 10px 0px;
+} 
+
+.first-row h3{
+    font-size: 14px;
+} 
+
+.first-row img{
+    width: 30px;
+    height: 30px;
+}
 
 /* game section */
+footer{
+    height: auto;
+}
     .footer-section{
         width: 100%;
     }
