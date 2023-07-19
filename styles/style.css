@@ -17,7 +17,7 @@
     height: 130px;
     background-color: white;
     text-align: center;
-    box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.05);
+    box-shadow: 0px 4px 30px 0px rgba(46, 45, 45, 0.05);
     /* border: 1px solid tomato; */
 
 }
@@ -201,19 +201,20 @@ nav {
 }
 
 /* online games */
-.online-games{
-    width: 1440px;
+.online-games {
+    max-width: 1440px;
     margin: 100px auto;
 }
 
-.online-title{
+.online-title {
     color: #0B0223;
-font-size: 48px;
-font-weight: 700;
-text-align: center;
-margin-bottom: 10px;
+    font-size: 3rem;
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 10px;
 }
-.online-section{
+
+.online-section {
     font-size: 3rem;
     font-weight: 700;
     background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
@@ -221,73 +222,35 @@ margin-bottom: 10px;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
-.online-desc{
+
+.online-desc {
     color: #534C64;
-text-align: center;
-font-size: 18px;
-font-weight: 400;
-margin-bottom: 25px;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    margin-bottom: 25px;
 
 }
 
-.online-desc1{
+.online-desc1 {
     color: #534C64;
-font-size: 18px;
-font-weight: 400;
-margin-bottom: 25px;
+    font-size: 1rem;
+    font-weight: 400;
+    margin-bottom: 25px;
 }
 
-.online-card{
+.online-card {
     display: flex;
     justify-content: space-around;
+    align-items: center;
 }
 
-.online-card p{
-    width:280px;
-    
+.online-card p {
+    width: 280px;
+
 }
 
 
-/* .content{
-        position: relative;
-        width: 100%;
-        max-width: 400px;
-}
-
-.img-tune {
-    display: block;
-    width: 100%;
-    height: 400px;
-  }
-
-  .overlay {
-    position: absolute;
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    height: 100%;
-    width: 100%;
-    opacity: 0;
-    transition: .3s ease;
-    background-color: red;
-  }
-  .icon {
-    color: white;
-    font-size: 100px;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    -ms-transform: translate(-50%, -50%);
-    text-align: center;
-  }
-  .fa-circle-play:hover {
-    color: #eee;
-  }
-  .content:hover .overlay {
-    opacity: 1;
-  } */
 /* online games end */
 
 /* play portion style */
@@ -340,23 +303,26 @@ margin-bottom: 25px;
 }
 
 .game-section {
-    height:450px;
-    background: rgba(248, 216, 239,0.5);
+    height: 450px;
+    background: rgba(248, 216, 239, 0.5);
     /* border: 1px solid black; */
     /* margin-top: -100px; */
 }
-.all-games{
+
+.all-games {
     max-width: 1440px;
     margin: 0 auto;
 }
-.first-row{
+
+.first-row {
     display: flex;
     justify-content: center;
     align-items: center;
-    
+
 
 }
-.first-row div{
+
+.first-row div {
     display: flex;
     background: white;
     border-radius: 50px;
@@ -366,18 +332,19 @@ margin-bottom: 25px;
 
 }
 
-.first-row, .second-row h3{
+.first-row,
+.second-row h3 {
     margin-left: 8px;
 }
 
-.second-row{
+.second-row {
     display: flex;
     justify-content: center;
     align-items: center;
 
 }
 
-.second-row div{
+.second-row div {
     display: flex;
     background: white;
     border-radius: 50px;
@@ -388,40 +355,37 @@ margin-bottom: 25px;
 }
 
 
-
-
-
 footer {
-    height: 600px;
+    height: auto;
     background-color: #0B0223;
     /* background-size: cover; */
     background-repeat: no-repeat;
 }
 
-.footer-section{
+.footer-section {
     max-width: 800px;
     margin: 0 auto;
     padding-top: 150px;
 }
 
-.footer-logo{
+.footer-logo {
     display: flex;
     align-items: center;
     gap: 10px;
     justify-content: center;
 }
 
-.footer-title{
+.footer-title {
     color: white;
     font-size: 2.8rem;
     font-weight: 700;
 }
 
-.higlight-text{
+.higlight-text {
     color: #FF42A5;
 }
 
-.footer-menu{
+.footer-menu {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -429,14 +393,14 @@ footer {
     margin-top: 30px;
 }
 
-.footer-menu a{
+.footer-menu a {
     text-decoration: none;
     color: white;
     font-size: 1.2rem;
     font-weight: 500;
 }
 
-.footer-social-media{
+.footer-social-media {
     display: flex;
     justify-content: center;
     gap: 30px;
@@ -445,7 +409,7 @@ footer {
     /* justify-content: center; */
 }
 
-.footer-menu-2{
+.footer-menu-2 {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -453,14 +417,14 @@ footer {
     margin-top: 30px;
 }
 
-.footer-menu-2 a{
+.footer-menu-2 a {
     text-decoration: none;
     color: lightgrey;
     font-size: 1rem;
     font-weight: 500;
 }
 
-.footer-bottom{
+.footer-bottom {
     text-align: center;
     color: lightgrey;
     font-weight: 400;
