@@ -76,6 +76,9 @@
     }
     .online-card{
         flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        /* margin: 0 auto; */
     }
     .online-desc{
         width: 350px;
@@ -83,7 +86,8 @@
     }
 
     .online-desc1 {
-        text-align: left;
+        /* text-align: left; */
+        width: 350px;
     }
     .play-concept {
         flex-direction: column;
